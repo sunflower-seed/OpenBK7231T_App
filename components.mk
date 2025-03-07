@@ -1,6 +1,6 @@
 ifeq ($(TARGET_PLATFORM),bk7231n)
 
-CFG_USE_MQTT_TLS ?= 0
+CFG_USE_MQTT_TLS ?= 1
 
 ifeq ($(CFG_USE_MQTT_TLS),1)
 
